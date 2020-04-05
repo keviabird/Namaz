@@ -1,0 +1,25 @@
+//
+//  Tutorial+CoreDataProperties.m
+//  Namaz
+//
+//  Created by Elena Gracheva on 13.06.16.
+//  Copyright © 2016 Islam. All rights reserved.
+//
+//  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
+//  to delete and recreate this implementation file for your updated model.
+//
+
+#import "Tutorial+CoreDataProperties.h"
+
+@implementation Tutorial (CoreDataProperties)
+
+@dynamic name;
+@dynamic womanDescription;
+@dynamic womanPicture;
+@dynamic manDescription;
+@dynamic manPicture;
+@dynamic order;
+@dynamic event;
+@dynamic parts;
+
+@end
